@@ -1,0 +1,38 @@
+1-	Faça o exercício do slide 10 da apresentação da semana: 
+# Definindo as variáveis
+numero1 = 10
+numero2 = 20
+numero3 = 30
+numero4 = 40
+frase = "Esta é uma frase de exemplo."
+palavra = "Python"
+
+# Imprimindo a média aritmética dos números
+media = (numero1 + numero2 + numero3 + numero4) / 4
+print("Média aritmética dos números:", media)
+
+# Imprimindo o quadrado de um dos números
+quadrado = numero3 ** 2
+print("Quadrado do número 3:", quadrado)
+
+# Imprimindo o dobro de um dos números
+dobro = numero4 * 2
+print("Dobro do número 4:", dobro)
+
+# Imprimindo a quantidade de letras da palavra
+qtd_letras = len(palavra)
+print("Quantidade de letras da palavra:", qtd_letras)
+
+# Imprimindo a quantidade de espaços em branco da frase
+qtd_espacos = frase.count(' ')
+print("Quantidade de espaços em branco na frase:", qtd_espacos)
+
+# Verificando se o primeiro número é maior que o segundo
+if numero1 > numero2:
+    print("O primeiro número é maior que o segundo.")
+else:
+    print("O primeiro número não é maior que o segundo.")
+
+# Encontrando o maior número
+maior_numero = max(numero1, numero2, numero3, numero4)
+print("Maior número:", maior_numero). 
